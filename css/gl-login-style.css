@@ -1,0 +1,126 @@
+body{
+  background-color: #EDEDED;
+}
+/*navbar*/
+.navbar{
+  background-color: #85C872 !important;
+}
+.clogo{
+  width: 100%;
+  height: 20%;
+}
+.plogo{
+  display: none;
+}
+/*contant*/
+.container{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 3px;
+  margin-bottom: auto;
+}
+.user_card {
+	height: 400px;
+	width: 350px;
+	margin-top: 100px;
+	margin-bottom: auto;
+	background: #EDEDED ;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+.brand_logo_container {
+	position: absolute;
+	height: 170px;
+	width: 170px;
+	top: -75px;
+    border-radius: 50%;
+	background: #85C872;
+	padding: 10px;
+	text-align: center;
+}
+.brand_logo {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: none;
+}
+.form_container {
+	margin-top: 100px;
+}
+.login_btn {
+	width: 100%;
+	background: #85C872  !important;
+	color: white !important;
+}
+.login_btn:hover{
+  background: #005F40 !important;
+}
+.login_btn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+.login_container {
+	padding: 0 2rem;
+}
+.input-group-text {
+	background: #c0392b !important;
+	color: white !important;
+	border: 0 !important;
+	border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+	background-color: #c0392b !important;
+}
+/*footer*/
+footer{
+  background: #303030;
+  color: #686868;
+  height: 5%;
+  width: 100%;
+  text-align: center;
+
+}
+/*responsive*/
+@media only screen and(min-width: 577px) and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 450px) {
+/*navbar*/
+  .clogo{
+    display: none;
+  }
+  .plogo{
+    display: block;
+    width: 30%;
+    height: 30%;
+  }
+/*contant*/  
+  .user_card{
+    height: 80%;
+  	width: 80%;
+  }
+  .brand_logo_container{
+    position: absolute;
+    height: 120px;
+  	width: 120px;
+  }
+  .brand_logo{
+    height: 100px;
+  	width: 100px;
+  }
+/*footer*/  
+
+}
